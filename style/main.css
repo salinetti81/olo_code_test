@@ -136,9 +136,29 @@ header button:hover {
 .menu-info {
   font-family: 'Cabin';
 }
- dd {
-  float: right;
+
+.category {
+  font-family: 'Bungee';
+  color: white;
+  background-color: rgb(36, 36, 36);
+  width: 10em;
+  margin-bottom: .1em;
+  text-align: center;
+  transition: .5s;
 }
+
+.category:hover {
+  background-color: rgb(157, 29, 29);
+  cursor: pointer;
+  transition: .5s;
+}
+
+.selected-category {
+  background-color: rgb(157, 29, 29);
+}
+/* dd {
+  float: right;
+}*/
 
 /*End Body*/
 
