@@ -1,0 +1,80 @@
+/*CSS Reset*/
+* {padding:0; margin:0; border: 0; outline: 0;}
+
+/*Fonts*/
+@font-face {
+  font-family: 'Bungee';
+  src: url('../fonts/Bungee/bungee-regular.woff2') format('woff2'),
+       url('../fonts/Bungee/bungee-regular.woff') format('woff'),
+       url('../fonts/Bungee/Bungee-Regular.tff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cabin';
+  src: ;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: ;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+/*Header*/
+#HeaderBar {
+  background-color: rgb(35, 35, 39);
+}
+
+header ul {
+  list-style: none;
+  margin-left: 30%;
+  
+}
+
+header li {
+  display: inline-block;
+  padding-left: 5%;
+}
+
+header li a {
+  color: rgb(250, 168, 102);
+  transition: .5s;
+  font-family: 'Bungee';
+}
+
+header li a:hover {
+  color: rgb(157, 29, 28);
+  transition: .5s;
+}
+
+header button {
+  margin-top: -5em;
+  margin-right: 5em;
+  padding: 5px 2em;
+  height: 3em;
+  float: right;
+  color: rgb(255, 255, 255);
+  background-color: rgb(22, 78, 87);
+}
+
+header button:hover {
+  cursor: pointer;
+}
+/*End Header*/
+
+
+
+
+
+
+
+
+
+
