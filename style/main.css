@@ -37,32 +37,52 @@ body {
   width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 /*Header*/
-#HeaderBar {
+header {
   background-color: rgb(35, 35, 39);
   border-bottom: 2em solid rgb(157, 29, 28);
 }
 
+header h1 {
+  text-align: center;
+  width: 6em;
+  margin-left: 1em;
+  color: white;
+  font-family: 'Lobster';
+  font-size: 25px;
+  background-color: rgb(22, 78, 87); 
+  padding: .5em .1em;
+}
+
 header ul {
   list-style: none;
-  margin-left: 30%;
+  margin-left: 25%;
   
 }
 
 header li {
   display: inline-block;
-  padding-left: 5%;
+  padding-left: 65px;
 }
 
 header li a {
   color: rgb(250, 168, 102);
   transition: .5s;
   font-family: 'Bungee';
+  font-size: 20px;
 }
 
 header li a:hover {
   color: rgb(157, 29, 28);
   transition: .5s;
+}
+
+.active a{
+  color: rgb(157, 29, 28);
 }
 
 header button {
@@ -84,6 +104,17 @@ header button:hover {
 }
 /*End Header*/
 
+/*Body*/
+#ContentArea {
+  background-color: rgb(237, 165, 101);
+  padding-left: 10%;
+}
+
+.menu-header h2 {
+  font-family: 'Bungee';
+}
+
+/*End Body*/
 
 
 
