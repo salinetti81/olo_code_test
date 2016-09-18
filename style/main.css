@@ -11,12 +11,22 @@
 
 @font-face {
   font-family: 'Cabin';
-  src: ;
+  src: url('../fonts/Cabin/cabin-regular.woff2') format('woff2'),
+       url('../fonts/Cabin/cabin-regular.woff') format('woff'),
+       url('../fonts/Cabin/Cabin-Regular.tff') format('truetype'),
+       url('../fonts/Cabin/cabin-bold.woff2') format('woff2'),
+       url('../fonts/Cabin/cabin-bold.woff') format('woff'),
+       url('../fonts/Cabin/Cabin-Bold.tff') format('truetype'),
+       url('../fonts/Cabin/cabin-italic.woff2') format('woff2'),
+       url('../fonts/Cabin/cabin-italic.woff') format('woff'),
+       url('../fonts/Cabin/Cabin-Italic.tff') format('truetype');
 }
 
 @font-face {
   font-family: 'Lobster';
-  src: ;
+  src: url('../fonts/Lobster/lobster-regular.woff2') format('woff2'),
+       url('../fonts/Lobster/lobster-regular.woff') format('woff'),
+       url('../fonts/Lobster/Lobster-Regular.tff') format('truetype');
 }
 
 a {
@@ -30,6 +40,7 @@ body {
 /*Header*/
 #HeaderBar {
   background-color: rgb(35, 35, 39);
+  border-bottom: 2em solid rgb(157, 29, 28);
 }
 
 header ul {
@@ -55,11 +66,15 @@ header li a:hover {
 }
 
 header button {
+  border-bottom: .5px solid white; 
   margin-top: -5em;
   margin-right: 5em;
   padding: 5px 2em;
-  height: 3em;
+  height: 40px;
+  width: 125px;
   float: right;
+  font-family: 'Lobster';
+  font-size: 16px;
   color: rgb(255, 255, 255);
   background-color: rgb(22, 78, 87);
 }
