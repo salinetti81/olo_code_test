@@ -54,24 +54,28 @@ header {
   padding-left: 8%;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .brand-name {
-  /*text-align: center;
+  text-align: center;
   position: relative;
   width: 6em;
   margin-left: 1em;
   color: white;
   font-family: 'Lobster';
   font-size: 25px;
-  background-color: rgb(22, 78, 87); */
+  background-color: rgb(22, 78, 87); 
   /*padding: .5em .1em;*/
-  width: 100px;
+  /*width: 100px;
   height: 55px;
   background: red;
-  position: relative;
+  position: relative;*/
 }
 
 /*Hexagon*/
-.brand-name:before {
+/*.brand-name:before {
   content: "";
   position: absolute;
   top: -25px;
@@ -92,7 +96,7 @@ header {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-top: 25px solid red;
-}
+}*/
 
 header ul {
   list-style: none;
@@ -156,27 +160,61 @@ header button:hover {
   font-family: 'Cabin';
   margin-top: -15px;
   width: 15em;
-
+  margin-bottom: 2%;
 }
 
 .address a {
   color: rgb(157, 29, 29);
 }
 
+.menu-info dd {
+  float: right;
+  padding-right: 25em;
+  margin-top: -2%;
+}
+
 .menu-info {
   font-family: 'Cabin';
+}
+
+#ProductList h2 {
+  display: none;
 }
 
 .category-header {
   background-image: url('../img/Burger-Category-Header.jpg');
   background-repeat: no-repeat;
+  margin-left: 13em;
+  margin-top: 5%;
+  height: 9em;
 }
+
+#CategoryList {
+  float: left;
+  margin-top: 5%;
+}
+
+.category-description:before {
+
+}
+
+.category-description {
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+  font-family: 'Cabin';
+  width: 30.1em;
+  padding: 1% ;
+
+  /*margin-left: 20%;*/
+}
+
+
 
 .category {
   font-family: 'Bungee';
   color: white;
   background-color: rgb(36, 36, 36);
-  width: 10em;
+  width: 12em;
   margin-bottom: .1em;
   text-align: center;
   transition: .5s;
@@ -197,15 +235,86 @@ header button:hover {
   display: none;
 }
 
+.product-detail span:nth-child(2n) {
+  display: table; /*Adds line break after Product Title*/
+  font-family: 'Cabin';
+  font-style: italic;
+  text-align: left;
+}
+#ProductList ul {
+  margin-left: 12em;
+  width: 70%;
+}
+#ProductList li {
+  border-radius: 3px;
+  display: inline-block;
+  height: auto;
+  min-height: 115px;
+  width: 245px;
+  transition: .5s;
+  padding: .5em 1em;
+  text-align: center;
+}
 
+#ProductList li:hover {
+  border-bottom: 2px solid rgb(157, 29, 28);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: .5s;
+}
 
+.product-title {
+  font-family: 'Bungee';
+  display: inline;
+  text-align: center;
+  color: rgb(157, 29, 28);
+  font-size: 1.3em;
+}
 
+ .product-image {
+  background-image: url('../img/Products/Classic-Burger.jpg');
+  background-repeat: no-repeat;
+  height: 20em;
+}
 
-
-
-/* dd {
+#BasketView {
   float: right;
-}*/
+  margin-top: -53em;
+  margin-right: 1em;
+  height: 100%;
+  width: 20em;
+  /*margin-left: -50%;
+  margin-top: -44em;
+  margin-right: 5em;
+  background: white;
+  height: 100%;
+  opacity: .5;*/
+}
+
+#BasketView h2 {
+  text-align: center;
+  font-family: 'Bungee';
+  font-size: 18px;
+  margin-bottom: -2%;
+}
+
+#BasketTotals {
+  font-family: 'Cabin';
+  border-top: 1px solid rgb(157, 29, 29);
+  padding-top: 2%;
+}
+
+#BasketTotals dt {
+  font-style: italic;
+  color: rgb(157, 29, 29);
+}
+
+#BasketView dd {
+  float: right;
+  padding-right: 1em;
+  margin-top: -5%;
+
+}
 
 /*#prod1, .product-image  {
   background-image: url('../img/Products/Classic-Burger.jpg');
