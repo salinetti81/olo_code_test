@@ -230,6 +230,10 @@ header button:hover {
   background-color: rgb(157, 29, 29);
 }
 
+.product-detail {
+  min-height: 151px;
+}
+
 /*HideS Product Pricing*/
 .product-detail span:nth-child(3n) {
   display: none;
@@ -240,7 +244,24 @@ header button:hover {
   font-family: 'Cabin';
   font-style: italic;
   text-align: left;
+  padding: 1%;
 }
+
+.product-detail:hover {
+  border-bottom: 2px solid rgb(157, 29, 28);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  min-height: 150px;
+  height: auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#ProductList {
+  padding-bottom: 10%;
+  width: 80%;
+}
+
 #ProductList ul {
   margin-left: 12em;
   width: 70%;
@@ -256,13 +277,6 @@ header button:hover {
   text-align: center;
 }
 
-#ProductList li:hover {
-  border-bottom: 2px solid rgb(157, 29, 28);
-  background-color: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: .5s;
-}
-
 .product-title {
   font-family: 'Bungee';
   display: inline;
@@ -271,12 +285,36 @@ header button:hover {
   font-size: 1.3em;
 }
 
- .product-image {
-  background-image: url('../img/Products/Classic-Burger.jpg');
+.product-image {
   background-repeat: no-repeat;
-  height: 20em;
+  background-size: 100%;
+  display: block;
+  height: 163px;
+  width: auto;
+  border-bottom: 2px solid white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; 
 }
 
+#prod1 .product-image {
+  background-image: url('../img/Products/Classic-Burger.jpg');
+}
+
+#prod2 .product-image {
+  background-image: url('../img/Products/Cheese-Burger.png');
+}
+
+#prod3 .product-image {
+  background-image: url('../img/Products/Bacon-Burger.png');
+}
+
+#prod4 .product-image {
+  background-image: url('../img/Products/Chicken-Burger.png');
+}
+
+#prod5 .product-image {
+  background-image: url('../img/Products/Foos-Burger.png');
+}
 #BasketView {
   float: right;
   margin-top: -53.5em;
