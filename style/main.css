@@ -187,6 +187,7 @@ header button:hover {
   margin-left: 13em;
   margin-top: 5%;
   height: 9em;
+  width: 100%;
 }
 
 #CategoryList {
@@ -207,8 +208,6 @@ header button:hover {
 
   /*margin-left: 20%;*/
 }
-
-
 
 .category {
   font-family: 'Bungee';
@@ -232,6 +231,7 @@ header button:hover {
 
 .product-detail {
   min-height: 151px;
+  width: 90%;
 }
 
 /*HideS Product Pricing*/
@@ -264,7 +264,8 @@ header button:hover {
 
 #ProductList ul {
   margin-left: 12em;
-  width: 70%;
+  margin-top: 20px;
+  width: auto;
 }
 #ProductList li {
   border-radius: 3px;
@@ -289,9 +290,9 @@ header button:hover {
   background-repeat: no-repeat;
   background-size: 100%;
   display: block;
-  height: 163px;
-  width: auto;
-  border-bottom: 2px solid white;
+  height: 147px;
+  width: 90%;
+  border-bottom: 1px solid white;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; 
 }
@@ -317,10 +318,10 @@ header button:hover {
 }
 #BasketView {
   float: right;
-  margin-top: -53.5em;
+  margin-top: -93.5em;
   margin-right: 1.5em;
   padding: 0 1%;
-  height: 121vh;
+  height: 220vh;
   width: 15em;
   background-color: rgba(54, 25, 25, 0.08) ;
 }
