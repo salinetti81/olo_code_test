@@ -279,16 +279,12 @@ header button:hover {
 
 #BasketView {
   float: right;
-  margin-top: -53em;
-  margin-right: 1em;
-  height: 100%;
-  width: 20em;
-  /*margin-left: -50%;
-  margin-top: -44em;
-  margin-right: 5em;
-  background: white;
-  height: 100%;
-  opacity: .5;*/
+  margin-top: -53.5em;
+  margin-right: 1.5em;
+  padding: 0 1%;
+  height: 121vh;
+  width: 15em;
+  background-color: rgba(54, 25, 25, 0.08) ;
 }
 
 #BasketView h2 {
@@ -314,6 +310,31 @@ header button:hover {
   padding-right: 1em;
   margin-top: -5%;
 
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(35, 35, 39);
+  padding: 2em 3em;
+  font-family: 'Cabin';
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+}
+
+#FooterLinks {
+  display: inline;
+  float: right;
+}
+
+#FooterLinks a {
+  padding: 0 7px;
+  border-right: 2px solid white;
+}
+
+#FooterLinks a:nth-child(4n) {
+  border-right: none;
 }
 
 /*#prod1, .product-image  {
