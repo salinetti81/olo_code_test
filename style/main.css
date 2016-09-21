@@ -4,7 +4,6 @@
   margin:0; 
   border: 0; 
   outline: 0;
-  
 }
 
 /*Fonts*/
@@ -36,11 +35,7 @@
 }
 
 a {
-    text-decoration: none;
-}
-
-body {
-  
+  text-decoration: none;
 }
 
 li {
@@ -67,41 +62,11 @@ header {
   font-family: 'Lobster';
   font-size: 25px;
   background-color: rgb(22, 78, 87); 
-  /*padding: .5em .1em;*/
-  /*width: 100px;
-  height: 55px;
-  background: red;
-  position: relative;*/
 }
-
-/*Hexagon*/
-/*.brand-name:before {
-  content: "";
-  position: absolute;
-  top: -25px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 25px solid red;
-}
-.brand-name:after {
-  content: "";
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 25px solid red;
-}*/
 
 header ul {
   list-style: none;
   margin-left: 25%;
-  
 }
 
 header li {
@@ -122,7 +87,7 @@ header li a:hover {
   cursor: pointer;
 }
 
-.active a{
+.active a {
   color: rgb(157, 29, 28);
 }
 
@@ -180,7 +145,6 @@ header button:hover {
 #ProductList {
   padding-bottom: 10%;
   width: 80%;
-  
 }
 
 #ProductList h2 {
@@ -200,10 +164,6 @@ header button:hover {
 #CategoryList {
   float: left;
   margin-top: 5%;
-}
-
-.category-description:before {
-
 }
 
 .category-description {
@@ -241,7 +201,7 @@ header button:hover {
   width: 90%;
 }
 
-/*HideS Product Pricing*/
+/*Hides Product Pricing*/
 .product-detail span:nth-child(3n) {
   display: none;
 }
@@ -269,6 +229,7 @@ header button:hover {
   margin-top: 40px;
   width: auto;
 }
+
 #ProductList li {
   border-radius: 3px;
   display: inline-block;
@@ -318,6 +279,7 @@ header button:hover {
 #prod5 .product-image {
   background-image: url('../img/Products/Foos-Burger.png');
 }
+
 #BasketView {
   float: right;
   margin-top: -93.5em;
@@ -350,8 +312,8 @@ header button:hover {
   float: right;
   padding-right: 1em;
   margin-top: -5%;
-
 }
+/*End Body*/
 
 /*Footer*/
 footer {
@@ -377,13 +339,4 @@ footer a {
 #FooterLinks a:nth-child(4n) {
   border-right: none;
 }
-
-
-
-
-
-
-
-
-
-
+/*End Footer*/
